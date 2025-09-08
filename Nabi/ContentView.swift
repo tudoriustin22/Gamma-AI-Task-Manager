@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView(viewModel: MainScreenViewModel())
+            HomeViewV2(viewModel: MainScreenViewModel())
                 .tabItem {
                                 Label("Home",
                                       systemImage: "house")
@@ -21,20 +21,20 @@ struct ContentView: View {
                                       systemImage: "pencil.and.outline")
                 }
             
-            HomeView(viewModel: MainScreenViewModel())
+            HomeViewV2(viewModel: MainScreenViewModel())
                 .tabItem {
                                 Label("Meetings",
                                       systemImage: "inset.filled.circle")
                 }
             
-            HomeView(viewModel: MainScreenViewModel())
+            HomeViewV2(viewModel: MainScreenViewModel())
                 .tabItem {
                                 Label("Repeat",
                                       systemImage: "repeat")
                 }
 
         }
-        .accentColor(Color.black)
+        .accentColor(Color.white)
     }
 }
 

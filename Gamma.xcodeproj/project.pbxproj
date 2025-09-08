@@ -10,9 +10,22 @@
 		28F384662E568701003848F2 /* Gamma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		289C541A2E6D809700687D64 /* Exceptions for "Nabi" folder in "Gamma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 28F384652E568701003848F2 /* Gamma */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		28F384682E568701003848F2 /* Nabi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				289C541A2E6D809700687D64 /* Exceptions for "Nabi" folder in "Gamma" target */,
+			);
 			path = Nabi;
 			sourceTree = "<group>";
 		};

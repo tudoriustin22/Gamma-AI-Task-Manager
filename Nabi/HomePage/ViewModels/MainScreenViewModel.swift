@@ -23,11 +23,11 @@ func getName() -> String {
 func getCurrentTime() -> String {
     let currentHour = Calendar.current.component(.hour, from: Date())
     if currentHour < 12 {
-        return "Good Morning"
+        return "Good morning"
     } else if currentHour < 18 {
-        return "Good Afternoon"
+        return "Good afternoon"
     } else if currentHour < 24 {
-        return "Good Evening"
+        return "Good evening"
     }
     return ""
 }

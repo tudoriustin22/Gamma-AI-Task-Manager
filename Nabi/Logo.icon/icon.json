@@ -1,20 +1,11 @@
 {
-  "fill" : {
-    "solid" : "display-p3:0.61389,0.61187,0.64717,1.00000"
-  },
+  "fill" : "system-light",
   "groups" : [
     {
       "layers" : [
         {
-          "image-name" : "Nabi Logo 2.png",
-          "name" : "Nabi Logo 2",
-          "position" : {
-            "scale" : 1.07,
-            "translation-in-points" : [
-              2.328125,
-              1.4921875
-            ]
-          }
+          "image-name" : "App Logo.png",
+          "name" : "App Logo"
         }
       ],
       "shadow" : {
