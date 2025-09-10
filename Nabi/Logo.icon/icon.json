@@ -1,11 +1,20 @@
 {
-  "fill" : "system-light",
+  "fill" : {
+    "solid" : "display-p3:0.60621,0.60621,0.60621,1.00000"
+  },
   "groups" : [
     {
       "layers" : [
         {
-          "image-name" : "App Logo.png",
-          "name" : "App Logo"
+          "image-name" : "App Logo-3.png",
+          "name" : "App Logo-3",
+          "position" : {
+            "scale" : 1.03,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
         }
       ],
       "shadow" : {

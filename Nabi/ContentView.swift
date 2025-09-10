@@ -18,19 +18,19 @@ struct ContentView: View {
             TasksView(viewModel: TasksViewModel())
                 .tabItem {
                                 Label("Tasks",
-                                      systemImage: "pencil.and.outline")
+                                      systemImage: "square.and.pencil")
                 }
             
             HomeViewV2(viewModel: MainScreenViewModel())
                 .tabItem {
-                                Label("Meetings",
-                                      systemImage: "inset.filled.circle")
+                                Label("Gamma AI",
+                                      systemImage: "apple.intelligence")
                 }
             
             HomeViewV2(viewModel: MainScreenViewModel())
                 .tabItem {
-                                Label("Repeat",
-                                      systemImage: "repeat")
+                                Label("Daily",
+                                      systemImage: "lasso.badge.sparkles")
                 }
 
         }

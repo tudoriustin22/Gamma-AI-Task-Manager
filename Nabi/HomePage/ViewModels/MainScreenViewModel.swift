@@ -10,7 +10,7 @@ import Combine
 
 class MainScreenViewModel: ObservableObject {
 
-    @Published var userSummary: [SummaryModel] = [SummaryModel(dayTime: getCurrentTime(), userName: getName(), currentMeetings: 2, upcomingTasks: 4, currentHabits: 3)]
+    @Published var userSummary: [SummaryModel] = [SummaryModel(dayTime: getCurrentTime(), userName: getName(), upcomingTasks: 4, currentHabits: 3)]
     
 }
 
